@@ -5,6 +5,7 @@
 //  Created by Colin Campbell on 6/22/21.
 //
 
+#if !os(Linux)
 import Foundation
 
 /// A type suitable for creating keys that belongs to a specific bundle.
@@ -47,3 +48,4 @@ extension ApplicationKey {
   }
   
 }
+#endif

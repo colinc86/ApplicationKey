@@ -1,5 +1,7 @@
 # ApplicationKey
 
+[![Unit Tests](https://github.com/colinc86/ApplicationKey/actions/workflows/swift.yml/badge.svg)](https://github.com/colinc86/ApplicationKey/actions/workflows/swift.yml)
+
 A Swift type suitable for creating keys that belongs to a specific bundle.
 
 Application keys have the form `bundleIdentifier.key`.
