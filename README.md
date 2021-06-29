@@ -13,7 +13,7 @@ DispatchQueue(label: ApplicationKey(from: "processingQueue")).async {
   
 }
 
-UserDefaults.standard.set(true, for: ApplicationKey(from: "showWarning"))
+UserDefaults.standard.set(true, forKey: ApplicationKey(from: "showWarning"))
 
 let key = ApplicationKey(from: "aKey", in: Bundle(identifier: "aBundleIdentifier"))
 ```
